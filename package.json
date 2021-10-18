@@ -1,0 +1,63 @@
+{
+  "name": "site-camisas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  
+  "item1": {
+    "name": "relogio1'",
+    "id": "1"
+  },
+
+  "item2": {
+    "name": "camisapreta",
+    "id": "2"
+  },
+
+  "item3" : {
+    "name": "camisasbrancas",
+    "id": "3"
+  },
+  "item4" : {
+    "name": "camisapreta2",
+    "id": "4"
+  },
+  "item5" : {
+    "name": "relogio2",
+    "id": "5"
+  },
+  "item6": {
+    "name": "conjuntocamisas",
+    "id": "6"
+  },
+  "item7": {
+    "name": "oculos",
+    "id":"7"
+  },
+  "item8": {
+    "name": "casaco",
+    "id": "8"
+  },
+  "item9": {
+    "name":"casaco2",
+    "id": "9"
+  }
+
+
+
+
+
+}
+
+
+
+

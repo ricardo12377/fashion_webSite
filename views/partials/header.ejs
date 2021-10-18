@@ -1,0 +1,237 @@
+<header class="header" > 
+        
+        
+    <h1 id="title">
+            
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
+*{
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+
+    
+
+}
+            h1 {
+    display: flex;
+    margin: 0;
+    top: 0;
+    background-color: lightgray ;
+    justify-content: space-evenly;
+    padding: 37px;
+    flex-direction: row;
+    align-items: center;
+}
+#fraselogo {
+    font-size: 10px;
+}
+h1 div:nth-child(1) {
+    padding-right: 20%;
+    display: flex;
+    align-items: baseline;
+   
+}
+
+#search {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    padding-left: 14%;
+    justify-content: center;
+    }
+
+    
+
+aside {
+    display: flex;
+    padding-left: 20%;
+    font-size: 18px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+
+
+h3 {
+    display: flex;
+    background-color: grey;
+    min-width: 100vh;
+    padding: 9px;
+    gap: 0.8rem;
+}
+header {
+    margin: 0;
+    gap: 0;
+    
+}
+
+
+.dropbtn {
+    top: 10%;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: lightgray;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .listContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+    .listContent a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .listContent a:hover {
+          background-color: #ddd}
+
+      .show {
+          display:block;}
+    
+    #searchItem{
+    display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              left: 10%;
+              gap: 1rem;
+}
+
+#barra {
+    display: flex;
+    justify-content: center;
+}
+
+
+</style>
+        <div class="container">Style Rj <em id="fraselogo">A moda veste a vida.</em> </div>
+
+        <!--
+            <div id="searchItem">
+           
+            <input type="text" name="" id="barra" list="searchterm" placeholder="O que está procurando?">  
+            <input type="submit" value="Procurar" id="procurar" onclick="ir()" > 
+            <datalist id="searchterm">
+            
+                <option id="camisa" value="camisa" >
+                    <a id="ircamisa" href="../pages/camisa.ejs"></a>
+                </option>
+                <option value="win">windows</option>
+            </datalist></div>
+             </div>
+        
+        <aside>
+            <div id="login">Entrar</div>
+
+        <div id="carrinho" ><ion-icon name="cart-outline"></ion-icon></div>
+        </aside>
+
+    </div>
+        -->
+       
+     
+        
+    </h1>
+
+    
+
+
+
+
+      <h2>
+        <div id="home" >
+            <a href="/"><ion-icon name="planet-outline"></ion-icon>Home</a>
+            
+        </div>
+
+
+
+        
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" ><ion-icon name="apps-outline"></ion-icon>
+              Produtos
+            </button>
+            <div  id="myList" class="listContent" >
+              <a class="dropdown-item" href="/camisa">Camisa</a>
+              <a class="dropdown-item" href="/calcao">Calções</a>
+              <a class="dropdown-item" href="/acessorio">Acessórios</a>
+            </div>
+          </div>
+
+
+          <script>
+              function myFunction () {
+                  document.getElementById("myList").classList.toggle("show");
+              }
+              window.onclick = function (event) {
+                  if(!event.target.matches(".dropbtn")) {
+                      var dropdowns = document.getElementsByClassName("listContent");
+                      var i;
+                      for(i= 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if(openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                          }
+                      }
+                  }
+              }
+          </script>
+
+
+
+
+
+
+        <div id="novidades" >
+            
+            <a href=""><ion-icon name="newspaper-outline"></ion-icon></a>
+            Novidades
+        </div>
+
+        <div id="sobrenos"  >
+            <a style="text-decoration: none;" href="/about"><ion-icon name="information-circle-outline"></ion-icon> Sobre nós</a>
+            
+        </div>
+
+        <div id="contato" >
+            <a href="/contato"><ion-icon name="at-outline"></ion-icon>Contato</a>
+            
+        </div>
+
+    </h2>
+
+   
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</header>

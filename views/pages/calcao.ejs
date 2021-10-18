@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+ <%- include('../partials/head'); %>
+
+ <body>
+     
+    <%- include('../partials/header'); %>
+
+<main>
+
+<style>
+
+main {
+    height: 1000px;
+}
+
+#titulo {
+            display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 40px;
+       padding: 30px;
+       background-color: white;
+        }
+
+        img {
+        width: 30%;
+    height: auto;
+    justify-content: center;
+    justify-content: flex-end;
+    padding-left: 2%;
+    border-radius: 20px;
+        }
+        
+      
+        .h2 {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            align-items: center;
+        }
+        .input {
+            display: flex;
+            gap: 0.8rem;
+            padding-left:  10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            align-items: center;
+        }
+        #p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 20px;
+            align-items: center;
+        }
+      
+</style>
+
+
+
+    <div>
+        <h1 id="titulo">
+            Calções
+        </h1>
+    </div>
+
+
+    <div id="texto">
+        <h2 class="h2">
+            A coleção de calções e permudas está em processo de criação e produção.
+        </h2>
+        
+        <p id="p">Para receber todas as informações, digite seu e-mail para ficar por dentro de todas as novidades.
+        </p>
+        
+        <div class="input">
+            <input type="text" placeholder="Digite seu E-mail">
+        <button>Enviar</button>
+        </div>
+    </div>
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+ </body>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    top: 0;
+    background-color: lightgrey;
+    justify-content: space-evenly;
+    padding: 37px;
+    
+    flex-direction: row;
+    align-items: center;
+}
+
+#fraselogo {
+    font-size: 10px;
+}
+
+h1 div:nth-child(1) {
+    padding-right: 20%;
+    display: flex;
+    align-items: baseline;
+   
+}
+
+h1 div:nth-child(2) {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    padding-left: 14%;
+    }
+
+aside {
+    display: flex;
+    padding-left: 20%;
+    font-size: 18px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    padding: 20px;
+    font-size: 18px;
+    
+    
+}
+
+
+h3 {
+    display: flex;
+    background-color: grey;
+    min-width: 100vh;
+    padding: 9px;
+    gap: 0.8rem;
+}
+
+
+
+header {
+    margin: 0;
+    gap: 0;
+}
+
+main {
+    
+    height: 2000px;
+}
+
+
+main div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    font-size: 55px;
+   
+    
+}
+
+   
+    
+
+
+
+
+img {
+    width: 30%;
+    height: auto;
+    justify-content: flex-end;
+    padding-left: 2%;
+  }
+  
+  .galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+  }
+
+  footer {
+      min-height: 200px;
+      color: black;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+
+
+
+
+
